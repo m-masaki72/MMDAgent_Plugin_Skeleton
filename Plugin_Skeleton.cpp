@@ -63,7 +63,7 @@ EXPORT void extAppStart(MMDAgent *mmdagent)
 {
 	enable = true;
 
-	mmdagent->sendMessage(MMDAGENT_EVENT_PLUGINENABLE, "%s", PLUGINLOGGER_NAME);
+	mmdagent->sendMessage(MMDAGENT_EVENT_PLUGINENABLE, "%s", PLUGINSKELETON_NAME);
 
 }
 
